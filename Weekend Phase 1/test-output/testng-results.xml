@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27620" started-at="2019-09-07T23:02:42 IST" finished-at="2019-09-07T23:03:10 IST">
+  <suite name="Default suite" duration-ms="10842" started-at="2019-09-08T21:27:27 IST" finished-at="2019-09-08T21:27:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27620" started-at="2019-09-07T23:02:42 IST" finished-at="2019-09-07T23:03:10 IST">
-      <class name="TestNG.Bupdatation">
-        <test-method status="PASS" signature="applaunch()[pri:0, instance:TestNG.Bupdatation@887af79]" name="applaunch" is-config="true" duration-ms="6561" started-at="2019-09-07T23:02:42 IST" finished-at="2019-09-07T23:02:49 IST">
+    <test name="Default test" duration-ms="10842" started-at="2019-09-08T21:27:27 IST" finished-at="2019-09-08T21:27:38 IST">
+      <class name="POM.LoginPageTestPOM">
+        <test-method status="PASS" signature="login()[pri:0, instance:POM.LoginPageTestPOM@3a5ed7a6]" name="login" duration-ms="10811" started-at="2019-09-08T21:27:27 IST" finished-at="2019-09-08T21:27:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- applaunch -->
-        <test-method status="PASS" signature="branchupdation()[pri:0, instance:TestNG.Bupdatation@887af79]" name="branchupdation" duration-ms="6" started-at="2019-09-07T23:02:49 IST" finished-at="2019-09-07T23:02:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- branchupdation -->
-        <test-method status="PASS" signature="applogin()[pri:0, instance:TestNG.Bupdatation@887af79]" name="applogin" duration-ms="1527" started-at="2019-09-07T23:02:49 IST" finished-at="2019-09-07T23:02:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applogin -->
-        <test-method status="PASS" signature="empcreation()[pri:0, instance:TestNG.Bupdatation@887af79]" name="empcreation" duration-ms="19407" started-at="2019-09-07T23:02:51 IST" finished-at="2019-09-07T23:03:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- empcreation -->
-        <test-method status="PASS" signature="appclose()[pri:0, instance:TestNG.Bupdatation@887af79]" name="appclose" is-config="true" duration-ms="80" started-at="2019-09-07T23:03:10 IST" finished-at="2019-09-07T23:03:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appclose -->
-      </class> <!-- TestNG.Bupdatation -->
+        </test-method> <!-- login -->
+      </class> <!-- POM.LoginPageTestPOM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
